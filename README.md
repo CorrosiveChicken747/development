@@ -11,7 +11,7 @@ I provided the amount of time required at minimum wage to earn the money for eve
 
 ### Organization of Components
 The cart and selection area are different components, and within these there is a ItemCard component for each item inside the selection area, and a CartItem for each item in the cart.
-Forgive me, but I use inline styles in many places because I was too lazy to make a css file for each component. This leads to code that is often ugly, my bad g.
+Forgive me, but I use inline styles in many places because I was too lazy to make a css file for each component. This leads to code that is often ugly, my bad.
 
 ### How Data is Passed Down Through Components
 Data is passed through props, with functions such as `add_to_cart` or `remove_self` implementing good separation of duties: a component is never allowed full access to the cart.
